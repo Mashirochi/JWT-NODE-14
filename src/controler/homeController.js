@@ -25,6 +25,7 @@ const handleDeleteUser = async (req, res) => {
 const getUpdateUserPage = async (req, res) => {
     let id = req.params.id;
     let user = await userService.getUserById(id);
+    console.log(user)
     let userData = {};
     if (user && user.length > 0) {
         userData = user[0];
