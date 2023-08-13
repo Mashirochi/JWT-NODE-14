@@ -1,6 +1,6 @@
 // import express from "express";
 import express from "express";
-import configViewEngine from "C:/python/backend/src/configs/viewEngine";
+import configViewEngine from "./config/viewEngine";
 import initWebRoutes from "../src/routes/web";
 import bodyParser from 'body-parser';
 
